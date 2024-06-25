@@ -1,0 +1,34 @@
+.tagline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    flex-direction: column;
+}
+
+.author {
+    display: block;
+    font-weight: normal;
+    font-size: 0.9rem;
+    color: rgb(105, 102, 102);
+    margin: 0.2rem 0.2rem 0;
+}
+
+.loader {
+    width: 35px;
+    height: 35px;
+    border: 5px solid rgb(204, 195, 195);
+    margin: 1.5rem 1.5rem 0;
+    border-top-color: rgb(0, 145, 230);
+    border-left-color: rgb(0, 145, 230);
+    border-radius: 100%;
+    animation: rotate 600ms infinite linear;
+}
+
+@keyframes rotate {
+    to {
+        transform : rotate(1turn)
+    }
+}
